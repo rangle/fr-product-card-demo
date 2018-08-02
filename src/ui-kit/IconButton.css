@@ -1,22 +1,17 @@
 .IconButton {
-  @apply appearance-none bg-transparent inline-block align-middle no-underline cursor-pointer leading-solid;
+  @apply appearance-none bg-transparent inline-block align-middle no-underline cursor-pointer leading-solid p-2;
   transition: transform 0.25s ease-out;
 }
 
-@variants hover, focus {
-  .IconButton {
-    transform: scale(1.05);
-  }
+.IconButton:hover,
+.IconButton:focus {
+  transform: scale(1.05);
 }
 
-@variants disabled {
-  .IconButton {
-    @apply opacity-25;
-  }
+.IconButton:active {
+  transform: scale(0.9);
 }
 
-@variants active {
-  .IconButton {
-    transform: scale(0.9);
-  }
+.IconButton:disabled {
+  @apply opacity-25;
 }
