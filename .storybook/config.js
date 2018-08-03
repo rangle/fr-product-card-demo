@@ -4,11 +4,10 @@ import '../src/ui-kit/index.css';
 
 setOptions({
   name: 'Product Card',
-  // name: 'Rangle.io Design System',
   url: '/',
   hierarchySeparator: /\//,
   hierarchyRootSeparator: /\|/,
-  sortStoriesByKind: false, // Do not sort alphabetically
+  sortStoriesByKind: false,
 });
 
 const storiesContexts = [

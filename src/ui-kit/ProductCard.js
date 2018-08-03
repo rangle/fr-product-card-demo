@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box } from './Box';
-import { Text } from './Text';
 import { ImageCard } from './ImageCard';
 import { Tag } from './Tag';
 import { Favourite } from './Favourite';
 import { Price } from './Price';
+import { Heading } from './Heading';
 
 const statusText = status =>
   ({
@@ -18,12 +18,12 @@ export const ProductCard = ({ shoe, ...props }) => (
     src={shoe.image}
     {...props}
     tl={shoe.status && <Tag>{statusText(shoe.status)}</Tag>}
-    tr={<Favourite className="m-2 p-2" isFavourite={shoe.favourite} />}
+    tr={<Favourite className="m-2 p-2" isFav={shoe.favourite} />}
     bl={
       <Box ml={3} mb={2}>
-        <Text dashWidth={1} fontSize={1} lineHeight="solid" mb={1}>
+        <Heading dashWidth={8} className="text-6 leading-solid mb-2">
           {shoe.name}
-        </Text>
+        </Heading>
         <Price {...shoe} />
       </Box>
     }

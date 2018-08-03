@@ -9,7 +9,7 @@ storiesOf('Components|ImageCard', module)
     <WithHtmlVariant>
       <ImageCard
         className="max-w-sm"
-        src="https://source.unsplash.com/random/?succulent"
+        src="https://source.unsplash.com/8mqOw4DBBSg/1600x900"
         ratio={4 / 3}
       />
     </WithHtmlVariant>
@@ -18,7 +18,7 @@ storiesOf('Components|ImageCard', module)
     <WithHtmlVariant>
       <ImageCard
         className="max-w-xs"
-        src="https://source.unsplash.com/random/?succulent"
+        src="https://source.unsplash.com/8mqOw4DBBSg/1600x900"
         ratio={3 / 4}
         tl={<Text className="text-white p-3 text-5">Top Left</Text>}
         tr={<Text className="text-white p-3 text-5">Top Right</Text>}

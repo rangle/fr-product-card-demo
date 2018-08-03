@@ -10,7 +10,7 @@ export const ImageCard = ({
   bl,
   src,
   ratio,
-  className,
+  className = '',
   ...props
 }) => (
   <Box className={`relative ${className}`} {...props}>

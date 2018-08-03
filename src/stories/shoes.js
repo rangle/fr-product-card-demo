@@ -9,20 +9,19 @@ export default [
   },
   {
     id: 1,
+    name: 'Abilaniel',
+    image:
+      '//media.aldoshoes.com/v2/product/abilaniel/62/abilaniel_red_62_look-part_rc_nt_1400x1778.jpg',
+    price: 55,
+  },
+  {
+    id: 2,
     name: 'Mccrery',
     image:
       '//media.aldoshoes.com/v2/product/mccrery/80/mccrery_metallic_80_main_rc_nt_700x889.jpg',
     price: 130,
     salePrice: 90.98,
     status: 'SALE',
-  },
-  {
-    id: 2,
-    name: 'Royton',
-    image:
-      '//media.aldoshoes.com/v2/product/royton/28/royton_cognac_28_main_rc_nt_700x889.jpg',
-    price: 125,
-    favourite: true,
   },
   {
     id: 3,
@@ -33,6 +32,14 @@ export default [
   },
   {
     id: 4,
+    name: 'Royton',
+    image:
+      '//media.aldoshoes.com/v2/product/royton/28/royton_cognac_28_main_rc_nt_700x889.jpg',
+    price: 125,
+    favourite: true,
+  },
+  {
+    id: 5,
     name: 'Royton',
     image:
       '//media.aldoshoes.com/v2/product/royton/70/royton_white-cream_70_main_rc_nt_700x889.jpg',

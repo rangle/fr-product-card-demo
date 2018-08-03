@@ -1,0 +1,8 @@
+.Heading {
+  @apply m-0 text-6 text-dark-gray font-serif font-normal leading-title;
+}
+
+.Heading__Dash {
+  height: 1px;
+  @apply ml-2 bg-dark-gray;
+}
