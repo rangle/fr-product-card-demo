@@ -6,3 +6,4 @@ export * from './Tag';
 export * from './IconButton';
 export * from './Favourite';
 export * from './Text';
+export * from './ProductCard';
