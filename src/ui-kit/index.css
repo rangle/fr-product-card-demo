@@ -1,4 +1,8 @@
 @import 'tailwindcss/preflight';
 @import 'tailwindcss/components';
+
+/* Components */
 @import 'IconButton.css';
+@import 'Text.css';
+
 @import 'tailwindcss/utilities';

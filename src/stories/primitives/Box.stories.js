@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { Box } from '../ui-kit';
+import { Box } from '../../ui-kit';
 
-storiesOf('Box', module)
+storiesOf('Primitives|Box', module)
   .add('with padding', () => (
     <React.Fragment>
       <Box bg="dark-gray" text="white" p={0} mb={3}>

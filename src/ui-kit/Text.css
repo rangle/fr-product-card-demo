@@ -1,0 +1,14 @@
+.Text {
+  @apply text-2 text-dark-gray font-serif font-normal leading-copy;
+}
+
+.Strikethrough {
+  @apply relative;
+}
+
+.Strikethrough:after {
+  content: '';
+  top: 35%;
+  transform: skewY(11deg);
+  @apply absolute border-b pin-l w-full;
+}

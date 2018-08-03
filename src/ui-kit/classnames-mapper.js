@@ -25,3 +25,8 @@ export const map = createMapper({
     return breakpoint ? [breakpoint, rule].join(':') : rule;
   },
 });
+
+export const withClassName = (name, { className = '', ...props }) => ({
+  className: `${name} ${className}`,
+  ...props,
+});
