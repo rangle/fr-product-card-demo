@@ -26,7 +26,7 @@ export const map = createMapper({
   },
 });
 
-export const withClassName = (name, { className = '', ...props }) => ({
-  className: `${name} ${className}`,
+export const withClassName = (name, { className, ...props }) => ({
+  className: className ? `${name} ${className}` : name,
   ...props,
 });

@@ -4,5 +4,7 @@
 /* Components */
 @import 'IconButton.css';
 @import 'Text.css';
+@import 'Tag.css';
+@import 'BackgroundImage.css';
 
 @import 'tailwindcss/utilities';

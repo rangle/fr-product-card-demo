@@ -1,0 +1,4 @@
+.BackgroundImage {
+  @apply bg-cover bg-center;
+  height: 0;
+}

@@ -11,14 +11,15 @@ export default ({ children }) => {
 
   return (
     <div className="m-3">
-      <h3 className="text-dark-gray mb-3 text-6 tracking-wide uppercase">
+      <h3 className="text-mid-gray mb-4 text-6 tracking-wide uppercase">
         React Component
       </h3>
       {children}
-      <h3 className="text-dark-gray mt-6 mb-3 text-6 tracking-wide uppercase">
+      <h3 className="text-mid-gray mt-6 mb-4 text-6 tracking-wide uppercase">
         HTML
       </h3>
       <div
+        className="mb-4"
         dangerouslySetInnerHTML={{
           __html: markup,
         }}
