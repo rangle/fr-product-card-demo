@@ -11,6 +11,7 @@ setOptions({
 });
 
 const storiesContexts = [
+  require.context('../src/stories', true, /stories\.js$/),
   require.context('../src/stories/primitives', true, /stories\.js$/),
   require.context('../src/stories/components', true, /stories\.js$/),
 ];

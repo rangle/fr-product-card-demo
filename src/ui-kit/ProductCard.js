@@ -14,9 +14,9 @@ const statusText = status =>
 
 export const ProductCard = ({ shoe, ...props }) => (
   <ImageCard
+    {...props}
     ratio={632 / 803}
     src={shoe.image}
-    {...props}
     tl={shoe.status && <Tag>{statusText(shoe.status)}</Tag>}
     tr={<Favourite className="m-2 p-2" isFav={shoe.favourite} />}
     bl={
@@ -24,7 +24,11 @@ export const ProductCard = ({ shoe, ...props }) => (
         <Heading dashWidth={8} className="text-6 leading-solid mb-2">
           {shoe.name}
         </Heading>
-        <Price {...shoe} />
+        <Price
+          price={shoe.price}
+          salePrice={shoe.salePrice}
+          onSale={shoe.status === 'SALE'}
+        />
       </Box>
     }
   />

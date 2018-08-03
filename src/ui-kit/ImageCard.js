@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box } from './Box';
 import { BackgroundImage } from './BackgroundImage';
-import { withClassName } from './classnames-mapper';
 
 export const ImageCard = ({
   tl,
